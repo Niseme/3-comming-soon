@@ -5,7 +5,7 @@ body
     padding: 0%;
     vertical-align: top;
     box-sizing: border-box;
-    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', , 'Trebuchet MS', sans-serif;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT','Trebuchet MS';
 
 } 
 .container {
