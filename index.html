@@ -1,42 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comming Soon</title>
+    <title>Coming soon</title>
+    <!-- struktura -->
+    <link rel="stylesheet" href="./css/layout.css">
+    <!-- komponentai -->
     <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/form.css">
     <link rel="stylesheet" href="./css/clock.css">
     <link rel="stylesheet" href="./css/mouse.css">
     <link rel="stylesheet" href="./css/progress-bar.css">
-    <link rel="stylesheet" href="./css/form.css">
+    <!-- extra pakeitimai ant komponentu -->
     <link rel="stylesheet" href="./css/custom.css">
-    <link rel="stylesheet" href="./css/layout.css">
 </head>
+
 <body>
-    <div class="background-picture">
+    <div class="container bg-blue bg-hero">
         <div class="hero-row">
-            HERO
+            <img src="./img/logo.png" alt="Logo">
+            <h1>Coming soon</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ab ratione maiores porro, veniam vitae. Aperiam, iure fuga!</p>
+            <div class="clock">
+                CLOCK
+            </div>
+            <form class="form">
+                SUBSCRIBE FORM
+            </form>
+            <div class="mouse">
+                MOUSE
+            </div>
         </div>
     </div>
     <main class="container">
         <div class="row">
-            <div class="left-row">
-                LEFT
+            <div class="left-column">
+                <h2 class="title-h2">About startup</h2>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut totam id temporibus praesentium laudantium culpa error! Optio, velit sequi consequatur nesciunt repellendus voluptatum laboriosam ut saepe recusandae soluta itaque eius.</p>
+                <div>Progress bar</div>
+                <div>Progress bar</div>
+                <div>Progress bar</div>
             </div>
-            <div class="right-row">
-                RIGHT
+            <div class="right-column">
+                <h2 class="title-h2">About startup</h2>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut totam id temporibus praesentium laudantium culpa error! Optio, velit sequi consequatur nesciunt repellendus voluptatum laboriosam ut saepe recusandae soluta itaque eius.</p>
+                <form class="form">
+                    Send message
+                </form>
             </div>
         </div>
     </main>
-    <footer class="background-picture">
+    <footer class="container bg-blue">
         <div class="row">
-            <div class="social">
-            SOCIAL
+            <div class="socials">
+                SOCIALS CONTENT
             </div>
-            <div class="text-class">
-            TEXT
-            </div> 
+            <div class="footer-texts">
+                FOOTER TEXTS CONTENT
+            </div>
         </div>
     </footer>
 </body>
+
 </html>
